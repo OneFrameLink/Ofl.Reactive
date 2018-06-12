@@ -1,4 +1,3 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
@@ -10,6 +9,17 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Reactive", "src\Ofl.Reactive\Ofl.Reactive.csproj", "{405086E1-3D5E-4BD9-8BAA-C366A1AA187B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Reactive.Tests", "test\Ofl.Reactive.Tests\Ofl.Reactive.Tests.csproj", "{C8F522BB-A62C-4063-B76C-593AD866CDAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{0C009204-E93F-40D6-A3F7-200D557A335E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Reactive.sln.DotSettings = Ofl.Reactive.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,5 +62,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{405086E1-3D5E-4BD9-8BAA-C366A1AA187B} = {15696F60-C661-446A-BB0F-CF0AE4BE7C0F}
 		{C8F522BB-A62C-4063-B76C-593AD866CDAE} = {18CEE928-AC79-45D3-80AA-9FF8C771E14E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E16CEC4C-F7C2-455E-A60A-A35FDA8BAC9C}
 	EndGlobalSection
 EndGlobal
